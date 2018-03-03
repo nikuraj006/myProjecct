@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/test")
 public class test extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response){
-        System.out.println(request.getParameter("name"));
-    }
+        /*
+        login here
+    */}
 }
