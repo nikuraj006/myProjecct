@@ -14,6 +14,7 @@ public class test extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response){
         try {
             PrintWriter out =  response.getWriter();
+            out.println("<center>");
             out.print(request.getParameter("name"));
         } catch (IOException e) {
             e.printStackTrace();
