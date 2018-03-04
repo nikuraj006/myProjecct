@@ -11,7 +11,7 @@ import java.io.Writer;
 
 @WebServlet("/test")
 public class test extends HttpServlet {
-    protected void doGet(HttpServletRequest request, HttpServletResponse response){
+    protected void doPost(HttpServletRequest request, HttpServletResponse response){
         try {
             PrintWriter out =  response.getWriter();
             out.print(request.getParameter("name"));
